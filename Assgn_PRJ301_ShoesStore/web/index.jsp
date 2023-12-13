@@ -47,9 +47,9 @@
 
     <body class="main-layout ">
         <!-- loader  -->
-        <div class="loader_bg">
+<!--        <div class="loader_bg">
             <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-        </div>
+        </div>-->
         <!-- end loader -->
         <!-- header -->
         <header>
@@ -118,7 +118,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 offset-md-6">
+<!--                        <div class="col-md-6 offset-md-6">
                             <div class="location_icon_bottum">
                                 <ul>
                                     <li><img src="icon/call.png" />(+71)9876543109</li>
@@ -126,7 +126,7 @@
                                     <li><img src="icon/loc.png" />Location</li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
         </header>
         <!-- end header -->
         <!-- about -->
-        <div class="about">
+        <!--<div class="about">-->
 
             <!-- brand -->
             <div class="brand">
@@ -142,10 +142,10 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="titlepage">
-                                <h2>Our Product</h2>
+                                <h2>Product</h2>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 mt-1">
                             <div class="form-group">
                                 <form action="SearchController" method="POST">
                                     <input type="text" name="txtSearchValue" value="" />
@@ -182,7 +182,7 @@
                                             }
                                         %>
                                     </select>
-                                    <input type="submit" class="btn-primary btn-danger" value="Find" name="btAction"/>
+                                    <input type="submit" class="btn-primary btn-danger" value="Look" name="btAction" style="background-color: yellow; color: black; border: 0.5px solid black"/>
                                 </form>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
             <!-- end brand -->
 
             <!-- footer -->
-            <footer>
+             <footer>
                 <div id="contact" class="footer">
                     <div class="container">
                         <div class="row pdn-top-30">
@@ -249,9 +249,9 @@
                                 <div class="footer-box">
                                     <div class="headinga">
                                         <h3>Address</h3>
-                                        <span>Healing Center, 176 W Streetname,New York, NY 10014, US</span>
-                                        <p>(+71) 8522369417
-                                            <br>demo@gmail.com</p>
+                                        <span>Mr John Smith 132, My Street, Bigtown BG23 4YZ, England</span>
+                                        <p>(+84) 8927357272
+                                            <br>abc@gmail.com</p>
                                     </div>
                                     <ul class="location_icon">
                                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
